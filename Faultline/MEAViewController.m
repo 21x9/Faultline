@@ -7,6 +7,7 @@
 //
 
 #import "MEAViewController.h"
+#import "UIView+FTLShake.h"
 
 @interface MEAViewController ()
 
@@ -35,11 +36,7 @@
 
 - (IBAction)shake:(id)sender
 {
-    UIPushBehavior *push = [[UIPushBehavior alloc] initWithItems:@[self.box] mode:UIPushBehaviorModeInstantaneous];
-    push.pushDirection = CGVectorMake(1, 0);
-    push.magnitude = 200;
-    [self.animator addBehavior:push];
-    push.active = YES;
+    [self.box ftl_shake];
 }
 
 @end

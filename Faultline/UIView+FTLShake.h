@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (FLIShake)
+@interface UIView (FTLShake)
+
+- (void)ftl_shake;
 
 @end

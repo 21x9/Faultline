@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C860D273-2021-4558-B060-42C19BCE3AE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Faultline</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>55C0D541-E3AE-4B64-A9B5-CEDBA7B3537F</key>
+		<string>ssh://github.com/21x9/Faultline.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Faultline.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>55C0D541-E3AE-4B64-A9B5-CEDBA7B3537F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/21x9/Faultline.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>55C0D541-E3AE-4B64-A9B5-CEDBA7B3537F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>55C0D541-E3AE-4B64-A9B5-CEDBA7B3537F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Faultline</string>
+		</dict>
+	</array>
+</dict>
+</plist>

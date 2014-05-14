@@ -14,7 +14,7 @@
 		4D0232CB1923FDB800FAB428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C01923FDB800FAB428 /* main.m */; };
 		4D0232CC1923FDB800FAB428 /* MEAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C21923FDB800FAB428 /* MEAAppDelegate.m */; };
 		4D0232CD1923FDB800FAB428 /* MEAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C41923FDB800FAB428 /* MEAViewController.m */; };
-		4D0232CE1923FDB800FAB428 /* UIView+FLIShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C61923FDB800FAB428 /* UIView+FLIShake.m */; };
+		4D0232CE1923FDB800FAB428 /* UIView+FTLShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C61923FDB800FAB428 /* UIView+FTLShake.m */; };
 		4DFBFBB6192305B500E60463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFBB5192305B500E60463 /* Foundation.framework */; };
 		4DFBFBB8192305B500E60463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFBB7192305B500E60463 /* CoreGraphics.framework */; };
 		4DFBFBBA192305B500E60463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFBB9192305B500E60463 /* UIKit.framework */; };
@@ -31,8 +31,8 @@
 		4D0232C21923FDB800FAB428 /* MEAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEAAppDelegate.m; path = Faultline/MEAAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		4D0232C31923FDB800FAB428 /* MEAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEAViewController.h; path = Faultline/MEAViewController.h; sourceTree = SOURCE_ROOT; };
 		4D0232C41923FDB800FAB428 /* MEAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEAViewController.m; path = Faultline/MEAViewController.m; sourceTree = SOURCE_ROOT; };
-		4D0232C51923FDB800FAB428 /* UIView+FLIShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FLIShake.h"; path = "Faultline/UIView+FLIShake.h"; sourceTree = SOURCE_ROOT; };
-		4D0232C61923FDB800FAB428 /* UIView+FLIShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLIShake.m"; path = "Faultline/UIView+FLIShake.m"; sourceTree = SOURCE_ROOT; };
+		4D0232C51923FDB800FAB428 /* UIView+FTLShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FTLShake.h"; path = "Faultline/UIView+FTLShake.h"; sourceTree = SOURCE_ROOT; };
+		4D0232C61923FDB800FAB428 /* UIView+FTLShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FTLShake.m"; path = "Faultline/UIView+FTLShake.m"; sourceTree = SOURCE_ROOT; };
 		4DFBFBB2192305B500E60463 /* Faultline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faultline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFBFBB5192305B500E60463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DFBFBB7192305B500E60463 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,8 +113,8 @@
 				4D0232C21923FDB800FAB428 /* MEAAppDelegate.m */,
 				4D0232C31923FDB800FAB428 /* MEAViewController.h */,
 				4D0232C41923FDB800FAB428 /* MEAViewController.m */,
-				4D0232C51923FDB800FAB428 /* UIView+FLIShake.h */,
-				4D0232C61923FDB800FAB428 /* UIView+FLIShake.m */,
+				4D0232C51923FDB800FAB428 /* UIView+FTLShake.h */,
+				4D0232C61923FDB800FAB428 /* UIView+FTLShake.m */,
 			);
 			name = Faultline;
 			path = Shake;
@@ -146,7 +146,7 @@
 		4DFBFBAA192305B500E60463 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = FLI;
+				CLASSPREFIX = FTL;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mark Adams";
 			};
@@ -190,7 +190,7 @@
 				4D0232CC1923FDB800FAB428 /* MEAAppDelegate.m in Sources */,
 				4D0232CD1923FDB800FAB428 /* MEAViewController.m in Sources */,
 				4D0232CB1923FDB800FAB428 /* main.m in Sources */,
-				4D0232CE1923FDB800FAB428 /* UIView+FLIShake.m in Sources */,
+				4D0232CE1923FDB800FAB428 /* UIView+FTLShake.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
