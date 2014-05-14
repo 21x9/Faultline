@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4DFBFBB1192305B500E60463"
-               BuildableName = "Shake.app"
-               BlueprintName = "Shake"
-               ReferencedContainer = "container:Shake.xcodeproj">
+               BuildableName = "Faultline.app"
+               BlueprintName = "Faultline"
+               ReferencedContainer = "container:Faultline.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4DFBFBD2192305B500E60463"
                BuildableName = "ShakeTests.xctest"
-               BlueprintName = "ShakeTests"
-               ReferencedContainer = "container:Shake.xcodeproj">
+               BlueprintName = "FaultlineTests"
+               ReferencedContainer = "container:Faultline.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4DFBFBB1192305B500E60463"
-            BuildableName = "Shake.app"
-            BlueprintName = "Shake"
-            ReferencedContainer = "container:Shake.xcodeproj">
+            BuildableName = "Faultline.app"
+            BlueprintName = "Faultline"
+            ReferencedContainer = "container:Faultline.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4DFBFBB1192305B500E60463"
-            BuildableName = "Shake.app"
-            BlueprintName = "Shake"
-            ReferencedContainer = "container:Shake.xcodeproj">
+            BuildableName = "Faultline.app"
+            BlueprintName = "Faultline"
+            ReferencedContainer = "container:Faultline.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4DFBFBB1192305B500E60463"
-            BuildableName = "Shake.app"
-            BlueprintName = "Shake"
-            ReferencedContainer = "container:Shake.xcodeproj">
+            BuildableName = "Faultline.app"
+            BlueprintName = "Faultline"
+            ReferencedContainer = "container:Faultline.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

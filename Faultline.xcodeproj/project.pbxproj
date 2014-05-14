@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0232C71923FDB800FAB428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0232B81923FDB800FAB428 /* Main.storyboard */; };
+		4D0232C81923FDB800FAB428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0232BB1923FDB800FAB428 /* InfoPlist.strings */; };
+		4D0232C91923FDB800FAB428 /* Faultline-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D0232BD1923FDB800FAB428 /* Faultline-Info.plist */; };
+		4D0232CA1923FDB800FAB428 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0232BF1923FDB800FAB428 /* Images.xcassets */; };
+		4D0232CB1923FDB800FAB428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C01923FDB800FAB428 /* main.m */; };
+		4D0232CC1923FDB800FAB428 /* MEAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C21923FDB800FAB428 /* MEAAppDelegate.m */; };
+		4D0232CD1923FDB800FAB428 /* MEAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C41923FDB800FAB428 /* MEAViewController.m */; };
+		4D0232CE1923FDB800FAB428 /* UIView+FLIShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0232C61923FDB800FAB428 /* UIView+FLIShake.m */; };
+		4DFBFBB6192305B500E60463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFBB5192305B500E60463 /* Foundation.framework */; };
+		4DFBFBB8192305B500E60463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFBB7192305B500E60463 /* CoreGraphics.framework */; };
+		4DFBFBBA192305B500E60463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFBB9192305B500E60463 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D0232B91923FDB800FAB428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		4D0232BC1923FDB800FAB428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		4D0232BD1923FDB800FAB428 /* Faultline-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Faultline-Info.plist"; path = "Faultline/Faultline-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4D0232BE1923FDB800FAB428 /* Faultline-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Faultline-Prefix.pch"; path = "Faultline/Faultline-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4D0232BF1923FDB800FAB428 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Faultline/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		4D0232C01923FDB800FAB428 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Faultline/main.m; sourceTree = SOURCE_ROOT; };
+		4D0232C11923FDB800FAB428 /* MEAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEAAppDelegate.h; path = Faultline/MEAAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4D0232C21923FDB800FAB428 /* MEAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEAAppDelegate.m; path = Faultline/MEAAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		4D0232C31923FDB800FAB428 /* MEAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEAViewController.h; path = Faultline/MEAViewController.h; sourceTree = SOURCE_ROOT; };
+		4D0232C41923FDB800FAB428 /* MEAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEAViewController.m; path = Faultline/MEAViewController.m; sourceTree = SOURCE_ROOT; };
+		4D0232C51923FDB800FAB428 /* UIView+FLIShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FLIShake.h"; path = "Faultline/UIView+FLIShake.h"; sourceTree = SOURCE_ROOT; };
+		4D0232C61923FDB800FAB428 /* UIView+FLIShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLIShake.m"; path = "Faultline/UIView+FLIShake.m"; sourceTree = SOURCE_ROOT; };
+		4DFBFBB2192305B500E60463 /* Faultline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faultline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFBFBB5192305B500E60463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DFBFBB7192305B500E60463 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DFBFBB9192305B500E60463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DFBFBD4192305B500E60463 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFBFBAF192305B500E60463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFBFBB8192305B500E60463 /* CoreGraphics.framework in Frameworks */,
+				4DFBFBBA192305B500E60463 /* UIKit.framework in Frameworks */,
+				4DFBFBB6192305B500E60463 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0232B71923FDB800FAB428 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4D0232B81923FDB800FAB428 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = Faultline/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		4D0232BA1923FDB800FAB428 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4D0232BB1923FDB800FAB428 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = Faultline/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		4DFBFBA9192305B500E60463 = {
+			isa = PBXGroup;
+			children = (
+				4DFBFBBB192305B500E60463 /* Faultline */,
+				4DFBFBB4192305B500E60463 /* Frameworks */,
+				4DFBFBB3192305B500E60463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFBFBB3192305B500E60463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFBFBB2192305B500E60463 /* Faultline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFBFBB4192305B500E60463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DFBFBB5192305B500E60463 /* Foundation.framework */,
+				4DFBFBB7192305B500E60463 /* CoreGraphics.framework */,
+				4DFBFBB9192305B500E60463 /* UIKit.framework */,
+				4DFBFBD4192305B500E60463 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DFBFBBB192305B500E60463 /* Faultline */ = {
+			isa = PBXGroup;
+			children = (
+				4D0232B71923FDB800FAB428 /* Base.lproj */,
+				4D0232BA1923FDB800FAB428 /* en.lproj */,
+				4D0232BD1923FDB800FAB428 /* Faultline-Info.plist */,
+				4D0232BE1923FDB800FAB428 /* Faultline-Prefix.pch */,
+				4D0232BF1923FDB800FAB428 /* Images.xcassets */,
+				4D0232C01923FDB800FAB428 /* main.m */,
+				4D0232C11923FDB800FAB428 /* MEAAppDelegate.h */,
+				4D0232C21923FDB800FAB428 /* MEAAppDelegate.m */,
+				4D0232C31923FDB800FAB428 /* MEAViewController.h */,
+				4D0232C41923FDB800FAB428 /* MEAViewController.m */,
+				4D0232C51923FDB800FAB428 /* UIView+FLIShake.h */,
+				4D0232C61923FDB800FAB428 /* UIView+FLIShake.m */,
+			);
+			name = Faultline;
+			path = Shake;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFBFBB1192305B500E60463 /* Faultline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFBFBE4192305B500E60463 /* Build configuration list for PBXNativeTarget "Faultline" */;
+			buildPhases = (
+				4DFBFBAE192305B500E60463 /* Sources */,
+				4DFBFBAF192305B500E60463 /* Frameworks */,
+				4DFBFBB0192305B500E60463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Faultline;
+			productName = Shake;
+			productReference = 4DFBFBB2192305B500E60463 /* Faultline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFBFBAA192305B500E60463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FLI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mark Adams";
+			};
+			buildConfigurationList = 4DFBFBAD192305B500E60463 /* Build configuration list for PBXProject "Faultline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFBFBA9192305B500E60463;
+			productRefGroup = 4DFBFBB3192305B500E60463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFBFBB1192305B500E60463 /* Faultline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFBFBB0192305B500E60463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0232C71923FDB800FAB428 /* Main.storyboard in Resources */,
+				4D0232CA1923FDB800FAB428 /* Images.xcassets in Resources */,
+				4D0232C81923FDB800FAB428 /* InfoPlist.strings in Resources */,
+				4D0232C91923FDB800FAB428 /* Faultline-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFBFBAE192305B500E60463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0232CC1923FDB800FAB428 /* MEAAppDelegate.m in Sources */,
+				4D0232CD1923FDB800FAB428 /* MEAViewController.m in Sources */,
+				4D0232CB1923FDB800FAB428 /* main.m in Sources */,
+				4D0232CE1923FDB800FAB428 /* UIView+FLIShake.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D0232B81923FDB800FAB428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0232B91923FDB800FAB428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D0232BB1923FDB800FAB428 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0232BC1923FDB800FAB428 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFBFBE2192305B500E60463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DFBFBE3192305B500E60463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFBFBE5192305B500E60463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shake/Faultline-Prefix.pch";
+				INFOPLIST_FILE = "Shake/Faultline-Info.plist";
+				PRODUCT_NAME = Faultline;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DFBFBE6192305B500E60463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shake/Faultline-Prefix.pch";
+				INFOPLIST_FILE = "Shake/Faultline-Info.plist";
+				PRODUCT_NAME = Faultline;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFBFBAD192305B500E60463 /* Build configuration list for PBXProject "Faultline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFBFBE2192305B500E60463 /* Debug */,
+				4DFBFBE3192305B500E60463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFBFBE4192305B500E60463 /* Build configuration list for PBXNativeTarget "Faultline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFBFBE5192305B500E60463 /* Debug */,
+				4DFBFBE6192305B500E60463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DFBFBAA192305B500E60463 /* Project object */;
+}
